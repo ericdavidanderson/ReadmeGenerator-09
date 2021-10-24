@@ -11,7 +11,7 @@
 - [Credits](#credits):trophy:
 - [License](#license)
 - [GitHub username](#username)
-- [Questions](#email) 
+- [Questions](#email) :mailbox:
 
 ## Description: 
 This README generator is a command line tool that will allow the user to generate a quality README.md file from the command line.    
