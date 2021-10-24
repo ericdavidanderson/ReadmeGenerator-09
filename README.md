@@ -6,7 +6,7 @@
 ## Table of Contents:
 - [Title](#title) 
 - [Description](#description)
-- [Installation(#install)
+- [Installation](#install)
 - :compas: [How to use:](#usage) 
 - :trophy: [Credits](#credits)
 - [License](#license)
@@ -29,7 +29,7 @@ I would like to thank I would like to thank Bobbi Tarkany, Jessica Whitman, and 
 mit
 
 ## Username
-ericdavidanderson
+https://github.com/ericdavidanderson/
 
 ##:mailbox: Email: 
 burrej1@gmail.com
