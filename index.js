@@ -24,22 +24,40 @@ const questions = [
     message: "Enter a description of the Readme you wish to generate:",
   },
 
-  //Instalation Instructions:
+  {
+    type: "input",
+    name: "install",
+    message: "Instalation Instructions:",
+  },
 
-  //Usage:
 
-  { type: "input", name: "title", message: "Enter Project Title:" },
+  {
+    type: "input",
+    name: "usage",
+    message: "How is this project intended to be used?"
+  },
+
+  { type: "input", 
+  name: "title", 
+  message: "Enter Project Title:" },
 
   {
     type: "list",
     name: "license",
     message: "Please choose the badge for license and notice of license here:",
-    choices: ["mit", "none"],
+    choices: ["mit", "none"]
   },
 
-  //What is your Github username?
+  {type: "list",
+  name: "username",
+  message: "What is your Github username?"
+},
 
-  //What is your email?
+  {
+    input: "type",
+    name: "email",
+    message: "What is your email?"
+  }
 ];
 
 // TODO: Create a function to write README file

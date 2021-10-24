@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 ## Description: 
 ${data.description}             
 - What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- Why did you build this project? 
 - What problem does it solve?
 - What did you learn?
 ## Table of Contents (Optional)
