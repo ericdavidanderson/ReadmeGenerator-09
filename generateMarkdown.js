@@ -27,7 +27,7 @@ function generateMarkdown(data) {
 ## Table of Contents:
 - [Title](#title) 
 - [Description](#description)
-- [Installation(#install)
+- [Installation](#install)
 - :compas: [How to use:](#usage) 
 - :trophy: [Credits](#credits)
 - [License](#license)
