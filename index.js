@@ -2,21 +2,8 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
 var generateMarkdown = require("./generateMarkdown");
-// inquirer
-//   .prompt([
-//     /* Pass your questions in here */
-//   ])
-//   .then((answers) => {
-//     // Use user feedback for... whatever!!
-//   })
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
-// TODO: Create an array of questions for user input
+
+//Questions to be generated:
 const questions = [
   {
     type: "input",
@@ -29,6 +16,11 @@ const questions = [
     name: "description",
     message: "Enter a description of the Readme you wish to generate:",
   },
+  {
+    type: "input",
+    name: "username",
+    message: "What is your Github username?",
+  },
 
   {
     type: "input",
@@ -39,36 +31,29 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "How is this project intended to be used?"
+    message: "How is this project intended to be used?",
   },
 
   {
     type: "input",
     name: "credit",
-    message: "List any sources you wish to credit:"
-  }
+    message: "List any sources you wish to credit:",
+  },
 
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email?",
+  },
   {
     type: "list",
     name: "license",
     message: "Please choose the badge for license and notice of license here:",
-    choices: ["mit", "none"],
-  },
-
-  { 
-    type: "list", 
-  name: "username", 
-  message: "What is your Github username?" 
-},
-
-  {
-    input: "type",
-    name: "email",
-    message: "What is your email?",
+    choices: ["mit", "apache", "none"],
   },
 ];
 
-// TODO: Create a function to write README file
+//This creates a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) throw err;
@@ -80,12 +65,12 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer
     .prompt(questions)
-    /* Pass your questions in here */
 
     .then((answers) => {
-      writeToFile("./dist/Readme.md", generateMarkdown(answers));
+      writeToFile("./dist/Readme.md", 
+      generateMarkdown(answers));
       // Use user feedback for... whatever!!
-      console.log(answers);
+      console.log("testing");
     })
     .catch((error) => {
       if (error.isTtyError) {
