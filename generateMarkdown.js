@@ -2,10 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if ((license === "mit")) {
-    return "![License: MIT](https://img.shields.io/badges/License-MIT-brightgreen)";
+    return "![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen)";
   }
   if ((license === "apache")) {
-    return "![License: Apache](https://img.shields.io/badges/license-Apache-blue)";
+    return "![License: Apache](https://img.shields.io/badge/license-Apache-blue)";
   }
   else return "No license for this product."
 }
