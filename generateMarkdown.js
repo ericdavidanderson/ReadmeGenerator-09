@@ -4,8 +4,8 @@ function renderLicenseBadge(license) {
   if ((license === "mit")) {
     return "![License: MIT](https://img.shields.io/badges/License-MIT-brightgreen)";
   }
-  if ((license = "apache")) {
-    return "![License: Apache] (https://img.shields.io/badges/license-Apache-blue)";
+  if ((license === "apache")) {
+    return "![License: Apache](https://img.shields.io/badges/license-Apache-blue)";
   }
   else return "No license for this product."
 }
@@ -47,7 +47,7 @@ ${data.install}
 ${data.credit}:trophy:
 
 ## License
-${data.license}
+${data.license} ${renderLicenseBadge(data.license)}
 
 ## Username
 ${data.username}
