@@ -7,7 +7,7 @@
 - [Title](#title) 
 - [Description](#description)
 - [Installation](#install)
-- :compas: [How to use:](#usage) 
+- :compass: [How to use:](#usage) 
 - :trophy: [Credits](#credits)
 - [License](#license)
 - [GitHub username](#username)
