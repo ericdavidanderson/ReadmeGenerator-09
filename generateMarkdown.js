@@ -40,8 +40,8 @@ ${data.description}
 ## Installation:
 ${data.install}
 
-##:compas: Usage:
- ${data.usage}
+## Usage:
+ ${data.usage}:compas:
 
 ## Credits
 ${data.credit}:trophy:
