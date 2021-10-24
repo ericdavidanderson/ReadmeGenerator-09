@@ -4,14 +4,14 @@
  ![License: MIT](https://img.shields.io/badges/License-MIT-brightgreen)
 
 ## Table of Contents:
-- [Title] (#title) 
-- [Description] (#description)
+- [Title](#title) 
+- [Description](#description)
 - [Installation](#install)
-- [How to use:] (#usage) 
+- [How to use:](#usage) 
 - [Credits](#credits)
 - [License](#license)
 - [GitHub username](#username)
-- [Questions](#email)
+- :mailbox:[Questions](#email)
 
 ## Description: 
 how does it work  
