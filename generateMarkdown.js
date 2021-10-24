@@ -28,11 +28,11 @@ function generateMarkdown(data) {
 - [Title](#title) 
 - [Description](#description)
 - [Installation](#install)
-- :compass: [How to use:](#usage) 
-- :trophy: [Credits](#credits)
+- [How to use:](#usage):compass: 
+- [Credits](#credits):trophy:
 - [License](#license)
 - [GitHub username](#username)
-- :mailbox: [Questions](#email)
+- [Questions](#email):mailbox: 
 
 ## Description: 
 ${data.description}  
@@ -43,8 +43,8 @@ ${data.install}
 ##:compas: Usage:
  ${data.usage}
 
-##:trophy: Credits
-I would like to thank ${data.credit} for their contributions to this project.
+## Credits
+${data.credit}:trophy:
 
 ## License
 ${data.license}
@@ -52,8 +52,8 @@ ${data.license}
 ## Username
 ${data.username}
 
-##:mailbox: Email: 
-${data.email}
+## Email: 
+${data.email}:mailbox:
  
 
 
