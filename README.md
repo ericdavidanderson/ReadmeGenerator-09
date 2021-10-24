@@ -11,7 +11,7 @@
 - [Credits](#credits)
 - [License](#license)
 - [GitHub username](#username)
-- :mailbox:[Questions](#email)
+- :mailbox: [Questions](#email)
 
 ## Description: 
 how does it work  
