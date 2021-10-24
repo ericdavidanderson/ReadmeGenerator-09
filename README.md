@@ -1,7 +1,7 @@
 
 # Project Title: README generator.
 
- ![License: MIT](https://img.shields.io/badges/License-MIT-brightgreen)
+ ![License: MIT]  (https://img.shields.io/badges/License-MIT-brightgreen)
 
 ## Table of Contents:
 - [Title](#title) 
