@@ -40,7 +40,7 @@ ${data.description}
 ${data.install}
 
 ## Usage:
- ${data.usage}:compas:
+ ${data.usage}:compass:
 
 ## Credits
 ${data.credit}:trophy:
