@@ -1,13 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if ((license === "mit")) {
+  if (license === "mit") {
     return "![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen)";
   }
-  if ((license === "apache")) {
+  if (license === "apache") {
     return "![License: Apache](https://img.shields.io/badge/license-Apache-blue)";
-  }
-  else return "No license for this product."
+  } else return "No license for this product.";
 }
 
 // TODO: Create a function that returns the license link
@@ -28,11 +27,11 @@ function generateMarkdown(data) {
 - [Title](#title) 
 - [Description](#description)
 - [Installation](#install)
-- [How to use:](#usage):compass: 
-- [Credits](#credits):trophy:
+- [How to use](#usage)    :compass: 
+- [Credits](#credits)  :trophy:
 - [License](#license)
 - [GitHub username](#username)
-- [Questions](#email):mailbox: 
+- [Questions](#email)    :mailbox: 
 
 ## Description: 
 ${data.description}  
